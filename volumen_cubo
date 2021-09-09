@@ -1,0 +1,10 @@
+#include <stdio.h>
+//Flores Castillo Cesar Roberto
+int main(void){
+	int v, a;
+	printf("VOLUMEN DE UN CUBO\n");
+	printf("Indique la magnitud de un lado de la base del cubo\n");
+	scanf("%d",&a);
+	v=a*a*a;
+	printf("El volumen del cubo es: %d",v);
+}
